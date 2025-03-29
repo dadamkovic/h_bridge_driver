@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8702QRHBRQ1
+D Automotive Brushed DC Motor Gate Driver
+K
+F http://www.ti.com/lit/gpn/drv8702-q1
+$ENDCMP
+#
+#End Doc Library

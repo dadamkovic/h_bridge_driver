@@ -1,0 +1,27 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Source
+"C1,C2",470u,~,Capacitor_THT:CP_Radial_D12.5mm_P5.00mm,2,,https://www.mouser.com/ProductDetail/Nichicon/UVR1J471MHD?qs=E%252BXosmEBrAt7oKLbiFOoGA%3D%3D
+C3,10u,~,Capacitor_SMD:CP_Elec_5x5.3,1,,https://www.mouser.com/ProductDetail/Wurth-Elektronik/865080642006?qs=0KOYDY2FL2%252BZqx7Z86fIjQ%3D%3D
+"C4,C6",0.1u,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,,https://www.mouser.com/ProductDetail/KEMET/C0805C104M5RACTU?qs=sGAEpiMZZMuMW9TJLBQkXgM5fJTMTdHoriBHUpESQJQ%3D
+"C5,C7,C8",1u,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,3,,https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21F105ZBFNNNE?qs=X6jEic%2FHinADtHcOQK2NnA%3D%3D
+"C9,C10",2.2u,~,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,2,,https://www.mouser.com/ProductDetail/TAIYO-YUDEN/UMK212ABJ225KG-T?qs=VWNNG7jHlrIJ3RLc0NcoSg%3D%3D
+D1,RED,~,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,https://www.mouser.com/ProductDetail/Lite-On/LTST-C171EKT?qs=sGAEpiMZZMvVL5Kk7ZYykXl4sxS5z%252BdY8grpBXQqhzo%3D
+D2,GREEN,~,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,,https://www.mouser.com/ProductDetail/Lite-On/LTST-S220GKT?qs=sGAEpiMZZMvVL5Kk7ZYykXqPXANRkQ32Tpqd9W7kEBs%3D
+D4,US1M,https://www.diodes.com/assets/Datasheets/ds16008.pdf,Diode_SMD:D_SMA,1,,https://www.mouser.com/ProductDetail/Comchip-Technology/US1M-HF?qs=sPbYRqrBIVnnDQODCBjn5Q%3D%3D
+D5,2BZX84Cxx,https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf,Package_TO_SOT_SMD:SOT-23,1,,https://www.mouser.com/ProductDetail/Diotec-Semiconductor/2BZX84C5V6?qs=OlC7AqGiEDk7Bavv0AXsDw%3D%3D
+IC1,DRV8702QRHBRQ1,http://www.ti.com/lit/gpn/drv8702-q1,User_HBridgeDriver:QFN50P500X500X90-33N-D,1,,https://www.mouser.com/ProductDetail/Texas-Instruments/DRV8702QRHBRQ1?qs=%2FP2Ij7fVdhHl2UejmZfGTw%3D%3D
+"J1,J4,J5",IN1,~,User_BananaTerminal:BananaPlug-Aliexpress,3,,
+"J2,SW2,SW4",IN2,~,-- mixed values --,3,,
+J3,SUPP,~,User_BananaTerminal:BananaPlug-Aliexpress,1,,
+J6,GND,~,User_BananaTerminal:BananaPlug-Aliexpress,1,,
+"Q1,Q2,Q3,Q4,Q7",SUD80460E,https://www.vishay.com/docs/76248/sud80460e.pdf,Package_TO_SOT_SMD:TO-252-2,5,,https://www.mouser.com/ProductDetail/Vishay-Siliconix/SUD80460E-BE3?qs=7MVldsJ5UawVtXZ3%252BvoTZQ%3D%3D
+"Q5,Q6",MUN5336DW1,https://www.onsemi.com/download/data-sheet/pdf/dtc115ep-d.pdf,Package_TO_SOT_SMD:SOT-363_SC-70-6,2,,
+Q9,MMBTA42,https://www.onsemi.com/pub/Collateral/MMBTA42LT1-D.PDF,Package_TO_SOT_SMD:SOT-23,1,,https://www.mouser.com/ProductDetail/Diodes-Incorporated/MMBTA42-7-F?qs=zB6%252Byl1wqIEWwZSkOSfeMQ%3D%3D
+"R1,R3,R4,R6,R7,R8,R9,R13,R15",R_US,~,-- mixed values --,9,,
+"R2,R5",500R,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,,
+"R10,R11",100R,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,,
+R12,10k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,,
+R14,43k,~,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,,
+SW1,SW_DIP_x01,~,User_SliderSwitch:EG 1248,1,,
+"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8",TestPoint,~,TestPoint:TestPoint_Pad_D1.5mm,8,,
+"TP9,TP10",TestPoint_2Pole,~,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,2,,
+U2,MCP1792x-5002xDB,https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP1792-Family-Data-Sheet-DS20006229D.pdf,Package_TO_SOT_SMD:SOT-223-3_TabPin2,1,,https://www.mouser.com/ProductDetail/Microchip-Technology/MCP1792-5002H-DB?qs=mAH9sUMRCtvwdyrOK2qV2g%3D%3D

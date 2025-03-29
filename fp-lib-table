@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "User_HBridgeDriver")(type "KiCad")(uri "${KIPRJMOD}/libraries/LIB_DRV8702QRHBRQ1/DRV8702QRHBRQ1/KiCad/User_HBridgeDriver.pretty")(options "")(descr ""))
+  (lib (name "User_BananaTerminal")(type "KiCad")(uri "${KIPRJMOD}/libraries/User_BananaTerminal.pretty")(options "")(descr ""))
+  (lib (name "User_SliderSwitch")(type "KiCad")(uri "${KIPRJMOD}/libraries/User_SliderSwitch.pretty")(options "")(descr ""))
+)
