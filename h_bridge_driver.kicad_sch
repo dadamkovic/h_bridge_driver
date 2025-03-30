@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "H-Bridge Driver Board")
-		(date "2025-03-13")
-		(rev "v0.1")
+		(date "2025-03-30")
+		(rev "v0.2")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Socket"
@@ -3784,6 +3784,12 @@
 		(uuid "b9ea9246-f886-4ab7-8dd3-e5cb20372dfe")
 	)
 	(junction
+		(at 77.47 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ccb71b-28c7-4eca-8afc-b3291072d382")
+	)
+	(junction
 		(at 252.73 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3794,12 +3800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0bf44e8-f1c6-4ac0-ba83-e0b8c8456aae")
-	)
-	(junction
-		(at 77.47 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d47a86eb-8f38-4bdf-8766-2be2e57814a3")
 	)
 	(junction
 		(at 130.81 243.84)
@@ -3969,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 82.55) (xy 77.47 82.55)
+			(xy 134.62 82.55) (xy 97.79 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5329,16 +5329,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 82.55) (xy 77.47 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af869fd3-e95d-4f29-879a-bb2f8374eacb")
-	)
-	(wire
-		(pts
 			(xy 382.27 134.62) (xy 382.27 138.43)
 		)
 		(stroke
@@ -5369,16 +5359,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 82.55) (xy 77.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2709996-4372-4b3a-8211-d2e927e884dd")
-	)
-	(wire
-		(pts
 			(xy 151.13 160.02) (xy 151.13 180.34)
 		)
 		(stroke
@@ -5406,6 +5386,16 @@
 			(type default)
 		)
 		(uuid "b4441f8f-2852-47dd-8212-1154600d4229")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b98e63-418b-4fdd-b522-a7aa7269e7ba")
 	)
 	(wire
 		(pts
@@ -5859,6 +5849,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 66.04) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e089017e-6373-4c74-ba3c-609407082d75")
+	)
+	(wire
+		(pts
 			(xy 171.45 180.34) (xy 176.53 180.34)
 		)
 		(stroke
@@ -5866,6 +5866,16 @@
 			(type default)
 		)
 		(uuid "e0fff716-2f22-4d98-8934-ea738d88ab38")
+	)
+	(wire
+		(pts
+			(xy 74.93 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36d6c69-2bf8-459d-b384-33b7df9886c4")
 	)
 	(wire
 		(pts
@@ -5916,16 +5926,6 @@
 			(type default)
 		)
 		(uuid "ea0353d7-e93f-4e78-90d6-4762827ef220")
-	)
-	(wire
-		(pts
-			(xy 77.47 66.04) (xy 77.47 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec37d15f-3606-4d0e-827b-382e9990a4b4")
 	)
 	(wire
 		(pts
@@ -7901,7 +7901,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 77.47 72.39 180)
+		(at 93.98 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7909,7 +7909,7 @@
 		(dnp no)
 		(uuid "3ed44826-8de3-44f4-adab-052104cc82ff")
 		(property "Reference" "R12"
-			(at 83.566 70.866 0)
+			(at 91.948 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +7918,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 83.058 73.406 0)
+			(at 92.456 77.216 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7927,7 +7927,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 76.454 72.136 90)
+			(at 93.726 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7936,7 +7936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 72.39 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +7945,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 77.47 72.39 0)
+			(at 93.98 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
